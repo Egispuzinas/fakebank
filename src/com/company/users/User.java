@@ -13,19 +13,11 @@ public class User {
         this.balance = balance;
         this.credit = credit;
         Random random = new Random();
-        this.acc = "LT"+ 4200 + random.nextInt(999999-100000) + 200;
-    }
-
-    public String getName() {
-        return name;
+        this.acc = "LT" + 4200 + random.nextInt(999999 - 100000) + 200;
     }
 
     public double getBalance() {
         return balance;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public void setBalance(double balance) {
